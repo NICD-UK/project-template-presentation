@@ -1,0 +1,37 @@
+---
+title: "Project Template"
+institute: NICD
+date: "<div class = 'slide-date'>`r format(Sys.Date(),format='%B %Y')` <div>"
+format:
+  revealjs:
+    slide-number: true
+    self-contained: true
+---
+
+# Data Science Workflow
+
+## Data Science Workflow Phases
+
+1. Business Understanding
+2. **Data Aquisiation and Understanding**
+3. **Modelling**
+4. Deployment
+
+# Data Aquisiation and Understanding
+
+## Steps
+
+1. aquire data
+2. describe data (`report/describe/`)
+3. clean data (`scr/clean/`)
+4. explore data (`report/explore`)
+5. wrangle data (`scr/wrangle/`)
+
+# Modelling
+
+## Steps
+
+1. select modelling techniques
+2. select experimental design
+3. build model (`data/model/`)
+4. assess model
