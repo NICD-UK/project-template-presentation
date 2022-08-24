@@ -13,25 +13,56 @@ format:
 ## Data Science Workflow Phases
 
 1. Business Understanding
-2. **Data Aquisiation and Understanding**
-3. **Modelling**
+2. Data Acquisition and Understanding
+3. Modelling
 4. Deployment
 
-# Data Aquisiation and Understanding
+# Data Acquisition and Understanding
 
 ## Steps
 
-1. aquire data
-2. describe data (`report/describe/`)
-3. clean data (`scr/clean/`)
-4. explore data (`report/explore`)
-5. wrangle data (`scr/wrangle/`)
+1. Aquire Data
+2. Describe Data
+3. Clean Data
+4. Explore Data
+5. Wrangle Data
 
-# Modelling
+# Aquire Data
 
-## Steps
+## Explanation
 
-1. select modelling techniques
-2. select experimental design
-3. build model (`data/model/`)
-4. assess model
+## Motivation
+
+## Recommendation
+
+# Describe Data
+
+## Explanation
+
+## Motivation
+
+## Recommendation
+
+# Clean Data
+
+## Explanation
+
+## Motivation
+
+## Recommendation
+
+# Explore Data
+
+## Explanation
+
+## Motivation
+
+## Recommendation
+
+# Wrangle Data
+
+## Explanation
+
+## Motivation
+
+## Recommendation
