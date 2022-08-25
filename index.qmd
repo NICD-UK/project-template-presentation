@@ -13,56 +13,113 @@ format:
 ## Data Science Workflow Phases
 
 1. Business Understanding
-2. Data Acquisition and Understanding
+2. Data Preparation and Understanding
 3. Modelling
 4. Deployment
 
-# Data Acquisition and Understanding
+# Business Understanding
 
 ## Steps
 
-1. Aquire Data
+1. Information
+2. Description
+3. Objectives
+4. Deliverables
+5. Resourcees
+
+## Workflow
+
+# Information
+
+## What?
+
+## Why?
+
+## How?
+
+# Description
+
+## What?
+
+## Why?
+
+## How?
+
+# Objectives
+
+## What?
+
+## Why?
+
+## How?
+
+# Deliverables
+
+## What?
+
+## Why?
+
+## How?
+
+# Resources
+
+## What?
+
+## Why?
+
+## How?
+
+# Data Preparation and Understanding
+
+## Steps
+
+1. Import Data
 2. Describe Data
 3. Clean Data
 4. Explore Data
 5. Wrangle Data
 
-# Aquire Data
+## Workflow
 
-## Explanation
+## Import Data
 
-## Motivation
+### How?
 
-## Recommendation
+- Create an independent cleaning script located in `src/clean/` for each data source. Each cleaning script should import from each data source (directory or database) and write to `data/clean/`
+
+### Why?
+
+- A script that can run end-to-end is important for building an automated data pipeline for deployment
+- An independent cleaning scipt for each data source is important for script maintenance and reuse
 
 # Describe Data
 
-## Explanation
+## What?
 
-## Motivation
+## Why?
 
-## Recommendation
+## How?
 
 # Clean Data
 
-## Explanation
+## What?
 
-## Motivation
+## Why?
 
-## Recommendation
+## How?
 
 # Explore Data
 
-## Explanation
+## What?
 
-## Motivation
+## Why?
 
-## Recommendation
+## How?
 
 # Wrangle Data
 
-## Explanation
+## What?
 
-## Motivation
+## Why?
 
-## Recommendation
+## How?
