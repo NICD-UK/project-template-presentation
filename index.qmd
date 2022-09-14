@@ -85,7 +85,7 @@ format:
 
 ### How?
 
-- Create an independent cleaning script located in `src/clean/` for each data source. Each cleaning script should import from each data source (directory or database) and write to `data/clean/`
+- Create an independent cleaning script in `src/clean` to import data from each relevant data source (directories and / or databases). Each cleaning script should output a file (or a directory of files) in `data/clean/`
 
 ### Why?
 
